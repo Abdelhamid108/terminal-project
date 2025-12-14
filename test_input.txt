@@ -1,0 +1,8 @@
+ls
+pwd
+mkdir test_dir
+cd test_dir
+pwd
+cd ..
+rmdir test_dir
+exit

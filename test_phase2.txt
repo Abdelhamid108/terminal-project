@@ -1,0 +1,5 @@
+help
+about
+history
+count test_phase2.txt
+exit

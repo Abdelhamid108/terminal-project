@@ -1,0 +1,4 @@
+history
+ls > final_out.txt
+ls | grep c
+exit

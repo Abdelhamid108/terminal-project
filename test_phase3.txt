@@ -1,0 +1,5 @@
+echo hello > hello.txt
+cat < hello.txt
+ls > ls_out.txt
+cat ls_out.txt
+exit
