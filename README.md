@@ -170,3 +170,20 @@ Connects the **Output** of Command A to the **Input** of Command B.
 
 3.  **Clean**:
     To remove compiled files: `make clean`
+
+---
+
+## Testing
+
+The project includes several text files used for testing different features of the shell. You can run these by redirecting input: `./myshell < test_input.txt`
+
+| File | Purpose |
+|------|---------|
+| `test_input.txt` | Tests basic commands like `ls`, `pwd`, `mkdir`, `cd`. |
+| `test_phase2.txt` | Tests built-in commands like `help`, `history`, `count`. |
+| `test_phase3.txt` | Tests I/O redirection (`>`, `<`) and piping. |
+| `test_enhancements.txt` | Tests extra commands like `cp`, `mv`, `rm`. |
+| `test_final.txt` | A comprehensive test of multiple features. |
+
+*Note: Files like `hello.txt`, `ls_out.txt`, or `final_out.txt` are generated outputs from running these tests and can be safely deleted.*
+
